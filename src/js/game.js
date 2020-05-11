@@ -4,7 +4,7 @@ const data = [
   { name: 'лучник', health: 80 },
 ];
 
-export const sortArray = function(array) {
+export const sortArray = function (array) {
   return array.sort((a, b) => b.health - a.health);
 };
 
